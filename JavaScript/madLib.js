@@ -1,4 +1,4 @@
-var userInputs = { ac1:"", ac2:"", ac3:"", ac4:"", ac5:"", ac6:"", ac7:"", ac8:"", ac9:"", ac10:"", ac11:"", ac12:"", ac13:"", ac14:"", ac15:"", ac16:"", ac17:"", ac18:"" }; //This stores user values.
+let userInputs = { ac1:"", ac2:"", ac3:"", ac4:"", ac5:"", ac6:"", ac7:"", ac8:"", ac9:"", ac10:"", ac11:"", ac12:"", ac13:"", ac14:"", ac15:"", ac16:"", ac17:"", ac18:"" }; //This stores user values.
 
 const alreadyCompleted = { ac1:"atomic tangerine", ac2:"spaghetti", ac3:"42", ac4:"chicken", ac5:"deadly", ac6:"wrench", ac7:"cucumber", ac8:"cardboard box", ac9:"neon pink", ac10:"toaster", ac11:"apples", ac12:"skittles", ac13:"dolphin", ac14:"painting", ac15:"hammock", ac16:"violet", ac17:"candles", ac18:"mad cow disease" }; //The values for auto-fill.
 
@@ -106,7 +106,7 @@ function autoFill() { //The user has hit Auto-Fill. Checks if user submit anythi
 }
 
 function clearForm() { //Clears the user values and the form.
-    var userInputs = { ac1:"", ac2:"", ac3:"", ac4:"", ac5:"", ac6:"", ac7:"", ac8:"", ac9:"", ac10:"", ac11:"", ac12:"", ac13:"", ac14:"", ac15:"", ac16:"", ac17:"", ac18:"" };
+    let userInputs = { ac1:"", ac2:"", ac3:"", ac4:"", ac5:"", ac6:"", ac7:"", ac8:"", ac9:"", ac10:"", ac11:"", ac12:"", ac13:"", ac14:"", ac15:"", ac16:"", ac17:"", ac18:"" };
     document.getElementById("theStory").innerHTML = "";
     document.getElementById('input1').value = "";
     document.getElementById('input2').value = "";
